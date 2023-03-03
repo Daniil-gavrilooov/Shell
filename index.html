@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shell</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:wght@400;700;800&family=Ubuntu:wght@700&display=swap"
+        rel="stylesheet">
+    <!-- styles -->
+    <link rel="stylesheet" href="adict/adict.css">
+    <link rel="stylesheet" href="adict/intlTelInput.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header__container">
+            <button class="logo">
+                <img class="logo__img" src="images/logo.png" alt="logo">
+            </button>
+        </div>
+    </header>
+
+    <main class="main">
+        <section id="form" class="promo">
+            <div class="container">
+                <div class="promo__head">
+                    <h1 class="promo__title">
+                        <span>Shell</span> открыла возможность
+                        торговать нефтью и газом
+                    </h1>
+
+                    <p class="promo__description">
+                        Платформа shell G&O зарабатывает за Вас!
+                    </p>
+                </div>
+
+                <div class="promo__inner">
+                    <div class="promo__item">
+                        <div class="promo__video">
+                            <iframe width="700" height="400" src="https://www.youtube.com/embed/rxqypsSZtI0" title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="promo__item">
+                        <div class="promo__form-head">
+                            <p class="promo__form-title">
+                                Начните зарабатывать
+                                автоматически от
+                                <span>300</span> евро в день!
+                            </p>
+                        </div>
+                        <form class="promo__form form" id="form" action="" method="post">
+                            <input class="promo__input" placeholder="Имя" name="f_name" type="text">
+                            <input class="promo__input" placeholder="Фамилия" name="l_name" type="text">
+                            <input class="promo__input" placeholder="Электронная почта" name="email" type="email">
+                            <input class="promo__input" name="phone" type="tel">
+
+                            <input type="hidden" name="offer_id" value="veRXJNX3r4">
+                            <input type="hidden" name="integration_id" value="K5VP2gb3R9">
+                            <input type="hidden" name="phone2" class="phone2" />
+                            <input type="hidden" name="p" value="<?php echo $_GET['p'] ?? null; ?>" />
+                            <input type="hidden" name="g" value="<?php echo $_GET['g'] ?? null; ?>" />
+                            <input type="hidden" name="b" value="<?php echo $_GET['b'] ?? null; ?>" />
+
+                            <button class="promo__btn button" type="submit">Начать зарабатывать</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="container">
+                <div class="about__inner">
+                    <div class="about__item">
+                        <h3 class="about__title">
+                            Почему это <span>выгодно</span> <br>
+                            для обычных граждан ЕС
+                        </h3>
+
+                        <ul class="about__list">
+                            <li class="about__list-item">стабильный доход от
+                                300 евро в день</li>
+                            <li class="about__list-item">удобный вывод средств
+                                на любую карту или
+                                платёжную систему</li>
+                            <li class="about__list-item">многократное
+                                приумножение первой инвестиции</li>
+                        </ul>
+                    </div>
+                    <div class="about__item">
+                        <h3 class="about__title">
+                            Что нужно сделать, чтобы начать
+                            <span>зарабатывать</span> с SHELL G&O уже сейчас ?
+                        </h3>
+
+                        <ul class="about__list">
+                            <li class="about__list-item">Зарегистрироваться на данном сайте в форме выше</li>
+                            <li class="about__list-item">Дождаться звонка специалиста компании SHELL и подтвердить
+                                регистрацию</li>
+                            <li class="about__list-item">Получать от 300 евро в день на торговли газом и нефтью с
+                                помощью платформы SHELL G&O</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="info">
+            <div class="container">
+                <div class="info__inner">
+                    <div class="info__item">
+                        <div class="info__item-head">
+                            <h5 class="info__name">
+                                Ben van Beurden
+                            </h5>
+
+                            <p class="info__profession">
+                                Генеральный директор Royal Dutch Shell plc.
+                            </p>
+                        </div>
+
+                        <p class="info__text">
+                            Мы приняли решение открыть доступ к торгам нефтью и газом для всех граждан ЕС, поскольку это
+                            будет выгодно как для SHELL, так и для обычных людей.
+                        </p>
+                        <p class="info__text">
+                            Дело в том, что на данный момент компания SHELL контролирует около 80% рынка нефти в Европе.
+                            Во всех странах мира стремительно растет спрос на её покупку. По этой причине мы решили
+                            увеличить объемы производства нефти в 4 раза и привлечь людей со всей Европы в качестве
+                            инвесторов.
+                        </p>
+                        <p class="info__text">
+                            Поскольку цены на нефть сейчас быстро меняются, все, кто присоединится к проекту SHELL
+                            Gaz&Oil, могут рассчитывать в среднем на 8000-12000 евро дохода ежемесячно.
+                        </p>
+
+                        <button class="info__btn _link" value="form">Оставить Заявку</button>
+                    </div>
+                    <div class="info__item">
+                        <img class="info__img" src="images/director1.webp.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="project">
+            <div class="project__container">
+
+                <div class="project__head">
+                    <h4 class="project__head-title">
+                        Проекты Royal Dutch Shell, открытые для инвестирования
+                    </h4>
+                </div>
+
+                <div class="project__inner">
+                    <div class="project__item">
+                        <div class="project__item-wrapper">
+                            <h4 class="project__title">
+                                Shell Energy
+                            </h4>
+
+                            <p class="project__text">
+                                Поставщик газа, электроэнергии и широкополосной связи в Соединенном Королевстве.
+                            </p>
+                            <p class="project__text">
+                                Доходность от 400 евро / день
+                            </p>
+
+                            <button class="project__btn _link" value="form">Подать заявку</button>
+                        </div>
+                    </div>
+                    <div class="project__item">
+                        <div class="project__item-wrapper">
+                            <h4 class="project__title">
+                                Pennzoil
+                            </h4>
+
+                            <p class="project__text">
+                                Pennzoil — нефтяная компания в США, в 2002 году приобретенная компанией «Royal Dutch
+                                Shell».
+                            </p>
+                            <p class="project__text">
+                                Доходность от 350 евро / день
+                            </p>
+
+                            <button class="project__btn _link" value="form">Подать заявку</button>
+                        </div>
+                    </div>
+                    <div class="project__item">
+
+                        <div class="project__item-wrapper">
+                            <h4 class="project__title">
+                                Jiffy lube
+                            </h4>
+
+                            <p class="project__text">
+                                Североамериканская компания, состоящая из 2000 предприятий, предлагающая автомобильные
+                                услуги.
+                            </p>
+                            <p class="project__text">
+                                Доходность от 500 евро / день
+                            </p>
+
+                            <button class="project__btn _link" value="form">Подать заявку</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="partner">
+            <div class="container">
+                <div class="partner__inner">
+                    <div class="partner__item">
+                        <img class="partner__img" src="images/visa.svg" alt="visa">
+                    </div>
+                    <div class="partner__item">
+                        <img class="partner__img" src="images/mastercard.svg" alt="mastercard">
+                    </div>
+                    <div class="partner__item">
+                        <img class="partner__img" src="images/icon 3.svg" alt="icon">
+                    </div>
+                    <div class="partner__item">
+                        <img class="partner__img" src="images/icon 4.svg" alt="">
+                    </div>
+                    <div class="partner__item">
+                        <img class="partner__img" src="images/icon 5.svg" alt="">
+                    </div>
+                    <div class="partner__item">
+                        <img class="partner__img" src="images/icon 6.svg" alt="">
+                    </div>
+                    <div class="partner__item">
+                        <img class="partner__img" src="images/icon 7.svg" alt="">
+                    </div>
+                </div>
+                <div class="partner__inner">
+                    <div class="partner__item">
+                        <img class="partner__img" src="images/icon 8.svg" alt="">
+                    </div>
+                    <div class="partner__item">
+                        <img class="partner__img" src="images/icon 9.svg" alt="">
+                    </div>
+                    <div class="partner__item">
+                        <img class="partner__img" src="images/icon 10.svg" alt="">
+                    </div>
+                    <div class="partner__item">
+                        <img class="partner__img" src="images/icon 11.svg" alt="">
+                    </div>
+                    <div class="partner__item">
+                        <img class="partner__img" src="images/icon 12.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <button class="logo">
+                <img class="logo__img" src="images/logo.png" alt="logo">
+            </button>
+        </div>
+    </footer>
+
+    <script src="js/main.min.js"></script>
+    <script src="adict/adict.js"></script>
+    <script src="adict/intlTelInput.js"></script>
+    <script src="adict/utils.js"></script>
+</body>
+
+</html>
